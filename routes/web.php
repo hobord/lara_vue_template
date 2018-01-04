@@ -27,6 +27,5 @@ Route::group([
 
     Route::any('{all}', function () {
         return view('admin_app');
-    })
-        ->where(['all' => '.*']);
+    })->where(['all' => '.*']);
 });

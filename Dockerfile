@@ -1,7 +1,4 @@
-# docker build -t hobord/image_regulator .
 FROM hobord/php-fpm-laravel:production
-
-MAINTAINER Balazs Szabo <balazs.szabo@gmail.com>
 
 COPY ./src /var/www/html
 
