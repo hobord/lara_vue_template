@@ -1,0 +1,28 @@
+@import '../../../node_modules/vuetify/dist/vuetify.min.css';
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+
+//@import "~";
+
+table.table tbody td:first-child, table.table tbody td:not(:first-child), table.table tbody th:first-child, table.table tbody th:not(:first-child), table.table thead td:first-child, table.table thead td:not(:first-child), table.table thead th:first-child, table.table thead th:not(:first-child) {
+  padding: 0 0;
+}
+
+table.table {
+  td {
+    padding: 0 24px!important;
+  }
+}
+
+.breadcrumbs__item {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
